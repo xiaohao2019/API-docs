@@ -1,4 +1,4 @@
-域名：http://fxhapi.feixiaohao.com 
+# 域名：http://fxhapi.feixiaohao.com 
 Ticker
 Endpoint: /ticker/
 Method: GET
