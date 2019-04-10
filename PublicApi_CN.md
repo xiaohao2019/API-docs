@@ -28,7 +28,7 @@ Feixiaohao API目前只有1个顶级目录。
    
    `limit=[integer](指定结果集的最大数量)`<br />
    
-   `convert=[string](将返回的 price, 24h volume, 和 market cap 字段转换到指定货币单位 并 补充到结果集末尾. 可用的货币单位有: "AUD", "BRL", "CAD", "CHF", "CLP", "CNY", "CZK", "DKK", "EUR", "GBP", "HKD", "HUF", "IDR", "ILS", "INR", "JPY", "KRW", "MXN", "MYR", "NOK", "NZD", "PHP", "PKR", "PLN", "RUB", "SEK", "SGD", "THB", "TRY", "TWD", "ZAR")`
+   `convert=[string](将返回的 price, 24h volume, 和 market cap 字段转换到指定货币单位并补充到结果对象. 可用的货币单位有: "AUD", "BRL", "CAD", "CHF", "CLP", "CNY", "CZK", "DKK", "EUR", "GBP", "HKD", "HUF", "IDR", "ILS", "INR", "JPY", "KRW", "MXN", "MYR", "NOK", "NZD", "PHP", "PKR", "PLN", "RUB", "SEK", "SGD", "THB", "TRY", "TWD", "ZAR")`
 
 * **访问成功:**
 
