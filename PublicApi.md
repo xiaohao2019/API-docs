@@ -24,8 +24,10 @@ Endpoint Category |  Description
 
    **Optional:**
 
-   `start=[integer](return results from rank "start" and above)`
-   `limit=[integer](return a maximum of "limit" results, default is 100, use 0 to return all results)`
+   `start=[integer](return results from rank "start" and above)`<br />
+   
+   `limit=[integer](return a maximum of "limit" results, default is 100, use 0 to return all results)`<br />
+   
    `convert=[alphanumeric](return price, 24h volume, and market cap in terms of another currency. Valid values are: "AUD", "BRL", "CAD", "CHF", "CLP", "CNY", "CZK", "DKK", "EUR", "GBP", "HKD", "HUF", "IDR", "ILS", "INR", "JPY", "KRW", "MXN", "MYR", "NOK", "NZD", "PHP", "PKR", "PLN", "RUB", "SEK", "SGD", "THB", "TRY", "TWD", "ZAR")`
 
 * **Success Response:**
@@ -87,6 +89,7 @@ Endpoint Category |  Description
   ```bash
   curl -H "Accept: application/json" -G "https://fxhapi.feixiaohao.com/public/v1/ticker?limit=5"
   ```
+  
   * **C#:**<br />
   ```csharp
   using System;
@@ -126,7 +129,7 @@ Endpoint Category |  Description
   }
   
   ```
-* **Java:**<br />
+  * **Java:**<br />
 
   ```java
   import java.io.IOException;
