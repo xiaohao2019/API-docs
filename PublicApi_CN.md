@@ -77,6 +77,26 @@ Feixiaohao API目前只有1个顶级目录。
         }
     ]
     ```
+```
+其中各字段的说明如下：
+            "id": "币种代码（唯一主键）",
+            "name": "币种英文名称",
+            "symbol": "币种的简称",
+            "rank": 币种的排名,
+            "logo": "币种的logo（webp格式）",
+            "logo_png": "币种的logo（非webp格式）",
+            "price_usd": 最新价格（单位：美元）,
+            "price_btc": 最新价格（单位：BTC）,
+            "volume_24h_usd": 24h的成交额（单位：美元）,
+            "market_cap_usd": 流通市值（单位：美元）,
+            "available_supply": 流通数量,
+            "total_supply": 总发行量,
+            "max_supply": 最大发行量（最大发行量可能>总发行量，譬如有些币种会主动销毁一部分数量）,
+            "percent_change_1h": 1小时涨跌幅,
+            "percent_change_24h":24小时涨跌幅,
+            "percent_change_7d":7天涨跌幅,
+            "last_updated": 行情更新时间（10位unix时间戳）
+```
 
 * **访问失败:**
 
